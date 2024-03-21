@@ -10,7 +10,7 @@ import (
 	"time"
 
 	"github.com/gomodule/redigo/redis"
-	"github.com/wangshiyu/redisearch-go/v1.0.0/redisearch"
+	"github.com/wangshiyu/redisearch-go/v1/redisearch"
 )
 
 // exemplifies the NewClient function
