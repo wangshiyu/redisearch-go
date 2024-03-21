@@ -1,4 +1,4 @@
-module github.com/wangshiyu/redisearch-go/v1
+module github.com/wangshiyu/redisearch-go
 
 go 1.16
 

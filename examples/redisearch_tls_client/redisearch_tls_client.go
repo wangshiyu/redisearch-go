@@ -11,7 +11,7 @@ import (
 	"time"
 
 	"github.com/gomodule/redigo/redis"
-	"github.com/wangshiyu/redisearch-go/v1/redisearch"
+	"github.com/wangshiyu/redisearch-go/redisearch"
 )
 
 var (
