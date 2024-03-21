@@ -47,11 +47,11 @@ func NewClientFromPool(pool *redis.Pool, name string) *Client {
 	return ret
 }
 
-func (i *Client) getPool() ConnPool {
+func (i *Client) GetPool() ConnPool {
 	return i.pool
 }
 
-func (i *Client) getName() string {
+func (i *Client) GetName() string {
 	return i.name
 }
 
