@@ -47,6 +47,14 @@ func NewClientFromPool(pool *redis.Pool, name string) *Client {
 	return ret
 }
 
+func (i *Client) getPool() ConnPool {
+	return i.pool
+}
+
+func (i *Client) getName() string {
+	return i.name
+}
+
 // CreateIndex configures the index and creates it on redis
 func (i *Client) CreateIndex(schema *Schema) (err error) {
 	return i.indexWithDefinition(i.name, schema, nil)
