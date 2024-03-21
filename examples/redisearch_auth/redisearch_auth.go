@@ -5,8 +5,8 @@ import (
 	"log"
 	"time"
 
-	"github.com/RediSearch/redisearch-go/v2/redisearch"
 	"github.com/gomodule/redigo/redis"
+	"github.com/wangshiyu/redisearch-go/v1.0.0/redisearch"
 )
 
 // exemplifies the NewClientFromPool function

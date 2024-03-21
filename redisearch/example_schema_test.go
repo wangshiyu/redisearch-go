@@ -7,7 +7,7 @@ import (
 
 	"github.com/gomodule/redigo/redis"
 
-	"github.com/RediSearch/redisearch-go/v2/redisearch"
+	"github.com/wangshiyu/redisearch-go/v1.0.0/redisearch"
 )
 
 // exemplifies the CreateIndex function with a temporary index specification
